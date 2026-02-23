@@ -52,9 +52,9 @@ def simhash_compare(u1,u2):
             common+=1
     print("Common bits in simhash:",common)
 
-if len(sys.argv)!=3:
-    print("Usage: python Similarity.py <url1> <url2>")
+if len(sys.argv) != 3:
+    print("Please give two website links.")
     sys.exit()
 
-
 simhash_compare(sys.argv[1],sys.argv[2])
+
