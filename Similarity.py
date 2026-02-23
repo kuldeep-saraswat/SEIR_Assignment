@@ -53,7 +53,8 @@ def simhash_compare(u1,u2):
     print("Common bits in simhash:",common)
 
 if len(sys.argv)!=3:
-    print("Usage: python script.py <url1> <url2>")
+    print("Usage: python Similarity.py <url1> <url2>")
     sys.exit()
+
 
 simhash_compare(sys.argv[1],sys.argv[2])
